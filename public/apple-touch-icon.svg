@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  
+  <!-- Terminal window -->
+  <rect x="20" y="30" width="140" height="120" rx="8" fill="#21262d" stroke="#30363d" stroke-width="2"/>
+  
+  <!-- Terminal header -->
+  <rect x="20" y="30" width="140" height="24" rx="8" fill="#2d333b"/>
+  <rect x="20" y="46" width="140" height="8" fill="#2d333b"/>
+  
+  <!-- Window controls -->
+  <circle cx="35" cy="42" r="4" fill="#ff5f56"/>
+  <circle cx="50" cy="42" r="4" fill="#ffbd2e"/>
+  <circle cx="65" cy="42" r="4" fill="#27ca3f"/>
+  
+  <!-- Terminal content -->
+  <!-- Prompt -->
+  <text x="35" y="80" font-family="SF Mono, Monaco, monospace" font-size="16" font-weight="500" fill="#4ade80">$</text>
+  <text x="55" y="80" font-family="SF Mono, Monaco, monospace" font-size="14" fill="#f0f6fc">whoami</text>
+  
+  <!-- Output -->
+  <text x="35" y="110" font-family="SF Mono, Monaco, monospace" font-size="14" fill="#4ade80">&gt;</text>
+  <text x="55" y="110" font-family="SF Mono, Monaco, monospace" font-size="14" fill="#f0f6fc">developer</text>
+  
+  <!-- Cursor with animation -->
+  <rect x="35" y="125" width="12" height="2" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Subtle glow effect -->
+  <rect x="20" y="30" width="140" height="120" rx="8" fill="none" stroke="#4ade80" stroke-width="1" opacity="0.3"/>
+</svg> 

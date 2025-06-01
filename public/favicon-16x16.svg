@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Terminal window background -->
+  <rect width="16" height="16" rx="2" fill="#0d1117"/>
+  
+  <!-- Terminal header -->
+  <rect x="0.5" y="0.5" width="15" height="3" rx="1.5" fill="#252526"/>
+  
+  <!-- Window controls -->
+  <circle cx="2" cy="2" r="0.7" fill="#ff5f56"/>
+  <circle cx="4" cy="2" r="0.7" fill="#ffbd2e"/>
+  <circle cx="6" cy="2" r="0.7" fill="#27ca3f"/>
+  
+  <!-- Terminal content -->
+  <text x="1.5" y="8" font-family="monospace" font-size="3" fill="#4ade80">$</text>
+  <text x="1.5" y="11.5" font-family="monospace" font-size="2.5" fill="#4ade80">&gt;</text>
+  <text x="4" y="11.5" font-family="monospace" font-size="2.5" fill="#ffffff">dev</text>
+  
+  <!-- Cursor -->
+  <rect x="1.5" y="13" width="3" height="0.5" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg> 

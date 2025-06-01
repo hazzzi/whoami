@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Terminal window background -->
+  <rect width="32" height="32" rx="4" fill="#0d1117"/>
+  
+  <!-- Terminal header bar -->
+  <rect x="1" y="1" width="30" height="6" rx="3" fill="#252526"/>
+  
+  <!-- Window controls -->
+  <circle cx="4" cy="4" r="1.5" fill="#ff5f56"/>
+  <circle cx="8" cy="4" r="1.5" fill="#ffbd2e"/>
+  <circle cx="12" cy="4" r="1.5" fill="#27ca3f"/>
+  
+  <!-- Terminal content -->
+  <!-- Prompt symbol -->
+  <text x="3" y="15" font-family="monospace" font-size="8" fill="#4ade80">$</text>
+  
+  <!-- whoami command -->
+  <text x="7" y="15" font-family="monospace" font-size="6" fill="#ffffff">whoami</text>
+  
+  <!-- Output -->
+  <text x="3" y="23" font-family="monospace" font-size="5" fill="#4ade80">&gt;</text>
+  <text x="7" y="23" font-family="monospace" font-size="5" fill="#ffffff">dev</text>
+  
+  <!-- Cursor -->
+  <rect x="3" y="27" width="6" height="1" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg> 
