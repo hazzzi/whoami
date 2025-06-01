@@ -7,7 +7,7 @@ interface VSCodeCardProps {
 
 export const VSCodeCard: React.FC<VSCodeCardProps> = ({ data }) => {
   return (
-    <div className="bg-vscode-bg border border-gray-700 rounded-lg overflow-hidden shadow-2xl max-w-md font-mono">
+    <div className="bg-vscode-bg border border-gray-700 rounded-lg overflow-hidden shadow-2xl font-mono max-w-lg">
       {/* VSCode Title Bar */}
       <div className="bg-vscode-sidebar flex items-center justify-between px-4 py-2 border-b border-gray-700">
         <div className="flex items-center gap-2">
@@ -40,7 +40,7 @@ export const VSCodeCard: React.FC<VSCodeCardProps> = ({ data }) => {
             <div className="flex">
               <span className="text-gray-600 w-6 text-right mr-4">1</span>
               <span className="text-purple-400">interface</span>
-              <span className="text-yellow-300 ml-2">Developer</span>
+              <span className="text-yellow-300 ml-2 mr-2">Developer</span>
               <span className="text-gray-300"> {'{'}</span>
             </div>
             
