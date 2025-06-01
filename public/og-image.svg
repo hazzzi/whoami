@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#21262d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Glow effect overlay -->
+  <rect width="1200" height="630" fill="url(#glowGradient)"/>
+  
+  <!-- Main terminal window -->
+  <rect x="150" y="120" width="900" height="450" rx="20" fill="#21262d" stroke="#30363d" stroke-width="3"/>
+  
+  <!-- Terminal header -->
+  <rect x="150" y="120" width="900" height="60" rx="20" fill="#2d333b"/>
+  <rect x="150" y="170" width="900" height="10" fill="#2d333b"/>
+  
+  <!-- Window controls -->
+  <circle cx="190" cy="150" r="12" fill="#ff5f56"/>
+  <circle cx="230" cy="150" r="12" fill="#ffbd2e"/>
+  <circle cx="270" cy="150" r="12" fill="#27ca3f"/>
+  
+  <!-- Terminal title -->
+  <text x="320" y="160" font-family="SF Mono, Monaco, monospace" font-size="24" font-weight="500" fill="#f0f6fc">whoami - 웹 명함 생성기</text>
+  
+  <!-- Terminal content -->
+  <!-- Main title -->
+  <text x="200" y="260" font-family="SF Mono, Monaco, monospace" font-size="48" font-weight="bold" fill="#4ade80">$ whoami</text>
+  
+  <!-- Description -->
+  <text x="200" y="320" font-family="SF Mono, Monaco, monospace" font-size="32" fill="#f0f6fc">&gt; 감성 있는 웹 명함 생성기</text>
+  
+  <!-- Features -->
+  <text x="200" y="380" font-family="SF Mono, Monaco, monospace" font-size="24" fill="#4ade80">✨ Terminal, Notion, VSCode, Web3 테마</text>
+  <text x="200" y="420" font-family="SF Mono, Monaco, monospace" font-size="24" fill="#4ade80">📋 Markdown &amp; 텍스트 복사 지원</text>
+  <text x="200" y="460" font-family="SF Mono, Monaco, monospace" font-size="24" fill="#4ade80">🚀 즉시 사용 가능</text>
+  
+  <!-- Cursor -->
+  <rect x="200" y="500" width="20" height="6" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Decorative elements -->
+  <circle cx="950" cy="200" r="30" fill="#4ade80" opacity="0.2"/>
+  <circle cx="1000" cy="300" r="20" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="900" cy="400" r="25" fill="#8b5cf6" opacity="0.2"/>
+  
+  <!-- Bottom text -->
+  <text x="600" y="600" font-family="SF Mono, Monaco, monospace" font-size="18" fill="#6b7280" text-anchor="middle">"명함 하나에도, 정체성이 담긴다."</text>
+</svg> 
