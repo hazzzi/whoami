@@ -67,7 +67,9 @@ function App() {
             </div>
             
             <div className="flex justify-center">
-              {renderCard()}
+              <div id="card-preview" className="inline-block">
+                {renderCard()}
+              </div>
             </div>
 
             {/* Tips */}
@@ -76,6 +78,7 @@ function App() {
               <ul className="text-sm text-blue-700 space-y-1">
                 <li>• 테마를 바꿔가며 다양한 스타일을 체험해보세요</li>
                 <li>• 복사 버튼으로 GitHub README나 SNS에 붙여넣기 가능</li>
+                <li>• PNG/JPG 다운로드로 이미지 파일로 저장하세요</li>
                 <li>• 이모지를 활용해서 더 감성적으로 꾸며보세요</li>
               </ul>
             </div>

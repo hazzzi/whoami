@@ -9,7 +9,8 @@ CLI 스타일, Notion 스타일, VSCode 스타일 등 **감성 충만한 테마*
 
 - 다양한 테마 선택: Terminal / Notion / VSCode / Web3 Hacker 등
 - 이름, 직함, 소개글, 링크 커스터마이징
-- Markdown / HTML 복사 버튼
+- **🖼️ PNG/JPG 이미지 다운로드**: 고품질 이미지 파일로 저장
+- Markdown / Terminal 텍스트 복사 버튼
 - 폰트 및 컬러 자동 적용
 - 완전 클라이언트 기반, 배포 즉시 사용 가능
 
@@ -21,6 +22,7 @@ CLI 스타일, Notion 스타일, VSCode 스타일 등 **감성 충만한 테마*
 | **TypeScript** | 타입 안정성 |
 | **Tailwind CSS** | 빠른 테마별 스타일 구성 |
 | **Zustand** | 커스터마이징 상태 관리 |
+| **html2canvas** | HTML을 이미지로 변환 |
 | **Vite** | 빠른 개발 서버 |
 
 ## 🚀 시작 방법
@@ -61,8 +63,10 @@ src/
   │   ├─ CardEditor.tsx
   │   ├─ ThemeSelector.tsx
   │   └─ ExportButtons.tsx
-  └─ store/             # 상태 관리
-      └─ useCardStore.ts
+  ├─ store/             # 상태 관리
+  │   └─ useCardStore.ts
+  └─ utils/             # 유틸리티 함수
+      └─ downloadUtils.ts
 ```
 
 ## 📌 사용 예시
@@ -72,6 +76,18 @@ $ whoami
 > Frontend Engineer
 > https://haeun.dev
 ```
+
+## 🖼️ 이미지 다운로드 기능
+
+### 지원 형식
+- **PNG**: 투명 배경, 높은 품질 (추천)
+- **JPG**: 흰색 배경, 작은 파일 크기
+
+### 활용 방법
+- 소셜 미디어 프로필 이미지
+- 디지털 명함으로 인쇄
+- 이메일 서명에 첨부
+- 포트폴리오 사이트에 삽입
 
 ## 🎨 테마 소개
 
@@ -88,11 +104,13 @@ $ whoami
 미래지향적인 블록체인/Web3 해커 스타일입니다.
 
 ## 🧩 향후 기능 제안
-- [ ] 명함 PNG 다운로드
+- [x] 명함 PNG 다운로드
 - [ ] 공유용 URL 슬러그 (?user=haeun)
 - [ ] Twitter Card용 메타 태그
 - [ ] "랜덤 감성 생성" 버튼
 - [ ] 추가 테마 (Matrix, Cyberpunk 등)
+- [ ] QR 코드 생성 기능
+- [ ] 배치 다운로드 (여러 테마 한번에)
 
 ## 🤝 기여하기
 
@@ -107,7 +125,7 @@ $ whoami
 MIT License
 
 ## 🎨 아이콘 추천
-🧑‍💻 개발자용 명차  
+🧑‍💻 개발자용 명함  
 🪪 Identification 느낌  
 👾 해커 감성용  
 🔗 링크와 연결된 정체성  
