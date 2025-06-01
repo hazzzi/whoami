@@ -90,16 +90,13 @@ function App() {
             <p>
               Made with 💚 by{' '}
               <a 
-                href="https://github.com" 
+                href="https://github.com/hazzzi" 
                 className="text-blue-600 hover:underline"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                whoami team
+                hazzzi
               </a>
-            </p>
-            <p className="text-sm mt-1">
-              오픈소스 프로젝트입니다. GitHub에서 기여해주세요! 🚀
             </p>
           </div>
         </div>
